@@ -1,0 +1,206 @@
+[
+    {
+        "id" : "K3#1",
+        "name" : "Hotel Kochi",
+        "state" : "Kerala",
+        "city" : "Kochi",
+        "address" : "Infopark Road, Kusumagiri P.O Kakkanad, 682030 Cochin",
+        "rating" : 3,
+        "description" : "Featuring an outdoor pool, renowned Quan spa, a fitness centre and 4 dining options, Kochi Marriott Hotel is located in Edapally, within the Lulu Mall campus.",
+        "cost" : 4000
+    },
+
+    {
+        "id" : "K5#1",
+        "name" : "Grand Hyatt Kochi Bolgatty",
+        "state" : "Kerala",
+        "city" : "Kochi",
+        "address" : "Xi/641A Kundanoor Junction NH-47 Bypass, Maradu, Po Ernakulam, Kochi, Kerala 68230",
+        "rating" : 5,
+        "description" : "Posh waterfront retreat offering modern rooms, plus an outdoor pool, a spa & restaurants.",
+        "cost" : 5500
+    },
+
+       {
+        "id" : "K3#2",
+        "name" : "OAK FIELD INN",
+        "state" : "Kerala",
+        "city" : "Munnar",
+        "address" : "Silent Valley Road, Near, NH-49, Munnar, Kerala 685614",
+        "rating" : 3,
+        "description" : "Unassuming hotel offering a restaurant & free breakfast, plus valley & tea plantation views.",
+        "cost" : 3500
+    },
+
+
+    {
+        "id" : "K5#2",
+        "name" : "Express hotel",
+        "state" : "Kerala",
+        "city" : "Munnar",
+        "address" : "Moolakadai, Munnar, Kerala 685612",
+        "rating" : 5,
+        "description" : "Situated in Munnar OAK FIELD INN features accommodation with a shared lounge, free private parking and a garden. This 3-star hotel offers an ATM and a tour desk.",
+        "cost" : 5000
+    },
+
+
+    {
+        "id" : "K3#4",
+        "name" : "Seven heavens Resort",
+        "state" : "Kerala",
+        "city" : "Thekkady",
+        "address" : "XI/641 A Kundanoor Junction, NH - 47 Bypass, Thekkady",
+        "rating" : 3,
+        "description" : "The luxurious Crowne Plaza Kochi offers elegant and modern rooms with views of the backwaters and city. Located on the NH 47 Bypass, it features 4 food and beverage options.",
+        "cost" : 2000
+    },
+
+       {
+        "id" : "K5#4",
+        "name" : "Crowne plaza Kochi",
+        "state" : "Kerala",
+        "city" : "Thekkady",
+        "address" : "Lake Road, Thekkady, Kumily, Tamil Nadu 685509",
+        "rating" : 5,
+        "description" : "Recreation facilities at the hotel include an outdoor pool and extensive spa treatments. Guests can enjoy a work-out at the 24-hour fitness centre or approach the 24-hour reception for assistance.",
+        "cost" : 3100
+    },
+
+
+    {
+        "id" : "K3#5",
+        "name" : "The velvet dream hotel",
+        "state" : "Kerala",
+        "city" : "Allepy",
+        "address" : "North of Vijaya Park, Canal Ward, Munnodi Temple Rd, Alappuzha, Kerala 688012",
+        "rating" : 3,
+        "description" : "Simple rooms in a laid-back beachfront property with free continental breakfast & Wi-Fi.",
+        "cost" : 2900
+    },
+
+
+    {
+        "id" : "K5#5",
+        "name" : "The cosmic hotel",
+        "state" : "Kerala",
+        "city" : "Allepy",
+        "address" : "Punnamada Road, near Staring Point, Alappuzha, Kerala 688013",
+        "rating" : 4,
+        "description" : "All rooms are equipped with an ergonomic work area, flat-screen satellite TV, iPod dock and minibar. They also include tea/coffee making facilities and a safe. Private bathroom comes with a bathtub, shower and bathrobes.",
+        "cost" : 4200
+    },
+
+    {
+        "id" : "U3#1",
+        "name" : "Lakeside Inn",
+        "state" : "Uttarakhand",
+        "city" : "Nainital",
+        "address" : "The Mall, Mall Rd, near Muncipal Library, Nainital, Uttarakhand 263002",
+        "rating" : 3,
+        "description" : "Relaxed hotel featuring complimentary breakfast, plus a terrace with panoramic lake views.",
+        "cost" : 2000
+    },
+
+    {
+        "id" : "U5#1",
+        "name" : "Shervani Hilltop Nainital",
+        "state" : "Uttarakhand",
+        "city" : "Nainital",
+        "address" : "Palace Building, Mall Rd, Nainital, Uttarakhand 263002",
+        "rating" : 5,
+        "description" : "Upmarket mountainside resort offering elegant rooms & suites, plus dining & a ba",
+        "cost" : 3600
+    },
+
+    {
+        "id" : "U3#2",
+        "name" : "Hotel Trishul",
+        "state" : "Uttarakhand",
+        "city" : "Haridwar",
+        "address" : "Near Laltarow Bridge, Railway Road, Haridwar, Uttarakhand 249410",
+        "rating" : 3,
+        "description" : "Modest rooms, some with balconies & views of the Himalayas, in a basic property offering dining.",
+        "cost" : 900
+    },
+
+    {
+        "id" : "U5#2",
+        "name" : "Radisson Blu Haridwar",
+        "state" : "Uttarakhand",
+        "city" : "Haridwar",
+        "address" : "Plot No. C-1, Sector 12, SIDCUL Uttarrakhand, Uttarakhand 249403",
+        "rating" : 5,
+        "description" : "Polished hotel with international dining, an outdoor pool & a spa, plus meeting space.",
+        "cost" : 1600
+    },
+
+    {
+        "id" : "U3#3",
+        "name" : "The Meadows Chopta, Resort & Camp",
+        "state" : "Uttarakhand",
+        "city" : "Corbett",
+        "address" : "Ukhimath - Chopta - Gopeshwar Rd, Dilangwar, Uttarakhand 246419",
+        "rating" : 3,
+        "description" : "Simple rooms, some with balconies, in a relaxed hotel offering a vegetarian restaurant & free Wi-Fi.",
+        "cost" : 2000
+    },
+
+    {
+        "id" : "U5#3",
+        "name" : "Hotel SunGrace",
+        "state" : "Uttarakhand",
+        "city" : "Corbett",
+        "address" : "Village - Siya, Kempty Fall Rd, Charleville, Corbett, Uttarakhand 268179",
+        "rating" : 5,
+        "description" : "Upscale quarters in a mountainside hotel featuring 4 restaurants, a spa & an entertainment centre",
+        "cost" : 3400
+    },
+
+
+    {
+        "id" : "U3#4",
+        "name" : "Sterling Mussoorie - Safest Resorts and Hotels",
+        "state" : "Uttarakhand",
+        "city" : "Mussoorie",
+        "address" : "Ukhimath - Chopta - Gopeshwar Rd, Dilangwar, Uttarakhand 246419",
+        "rating" : 3,
+        "description" : "Rooms with balconies, in a relaxed hotel offering a vegetarian restaurant & free Wi-Fi.",
+        "cost" : 2900
+    },
+
+    {
+        "id" : "U5#4",
+        "name" : "JW Marriott Mussoorie Walnut Grove Resort & Spa",
+        "state" : "Uttarakhand",
+        "city" : "Mussoorie",
+        "address" : "Village - Siya, Kempty Fall Rd, Charleville, Mussoorie, Uttarakhand 248179",
+        "rating" : 5,
+        "description" : "Plush quarters with valley views in an upscale hotel featuring elegant dining, a spa & a game room.",
+        "cost" : 4500
+    },
+
+
+    {
+        "id" : "U3#5",
+        "name" : "SHill Top Swiss Cottage",
+        "state" : "Uttarakhand",
+        "city" : "Rishikesh",
+        "address" : "High Bank, Bhirkhet, Tapovan, Rishikesh, Uttarakhand 249192",
+        "rating" : 3,
+        "description" : "Nice rooms with, very good accommodation and breath taking view",
+        "cost" : 800
+    },
+
+    {
+        "id" : "U5#5",
+        "name" : "Blue Jay Hostel, Rishikesh",
+        "state" : "Uttarakhand",
+        "city" : "Rishikesh",
+        "address" : "Blue Jay Hostel, Opposite Ayur Park, Near SBI Bank, Jonk, Badrinath Rd, Tapovan, Rishikesh, Uttarakhand 249201",
+        "rating" : 5,
+        "description" : "Unassuming hotel offering a restaurant & free breakfast, plus valley & tea plantation views.",
+        "cost" : 1700
+    }
+
+]

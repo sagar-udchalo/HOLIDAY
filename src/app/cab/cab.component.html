@@ -1,0 +1,39 @@
+<div class="container">
+	<div>
+		<h2>Select your Cab</h2>
+		<hr>
+		<div *ngFor="let c of availCabs">
+		<mat-card style="background-color: #f5f5f5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="https://images.pexels.com/photos/2360562/pexels-photo-2360562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+						width='80%' height="190">
+					</div>
+
+					<div class="col-sm-7">
+						<div style="padding: 11px;">
+							<span style="float: right;" *ngIf="c.ac == true">
+								AC<span class="material-icons" style="font-size: 15px">ac_unit</span>
+							</span>
+							<span><b>{{c.name}}</b></span>
+							<br>
+							<p>{{c.location}}</p>
+							<p>Rs. {{c.cost}} /- </p>
+							<p>{{c.seater}} Seater</p> 
+						</div>
+						<button  mat-stroked-button color="primary" (click)="selectedCab(c.id, c.cost, c.seater)">Select</button>
+					</div>
+				</div>
+			</div>
+		</mat-card>
+		<br>
+		</div>
+	</div>
+	<div>
+      <button  mat-flat-button color="primary" matStepperPrevious>Back</button>
+      <button mat-flat-button color="primary" matStepperNext
+      style="float: right;" 
+      >Next</button>
+    </div>
+</div> 

@@ -1,0 +1,75 @@
+<div style="background-color: #f5f5f5">
+  <mat-toolbar color="primary" *ngIf="packages != undefined">
+    <span>{{ packages.name }}  <small style="margin-left: 20px;">{{packages.duration}}D | {{packages.state}}</small></span>
+  </mat-toolbar>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9">
+    
+        <mat-horizontal-stepper labelPosition="bottom" #stepper>
+        <mat-step>
+            <ng-template matStepLabel>Day Plan</ng-template>
+
+              <app-day-plan></app-day-plan>
+
+        </mat-step>
+
+        <mat-step>
+            <ng-template matStepLabel>Add Details</ng-template>
+            
+              <app-add-traveller (eventEmitterT)="setTravellersDetails($event)"></app-add-traveller>
+            
+        </mat-step>
+
+        <mat-step>
+            <ng-template matStepLabel>Travels</ng-template>
+            
+              <app-travel (eventEmitterTravel)="setTravelDetails($event)"></app-travel>
+
+        </mat-step>
+
+
+        <mat-step>
+            <ng-template matStepLabel>Hotels</ng-template>
+            
+              <app-hotel></app-hotel>
+        </mat-step>
+
+
+        <mat-step>
+            <ng-template matStepLabel>Cabs</ng-template>
+            
+              <app-cab (eventEmitterCabs)="setCabDetails($event)"></app-cab>
+        </mat-step>
+
+
+        <mat-step>
+          <ng-template matStepLabel>Done</ng-template>
+          <app-summary [wholeSummary]="whole"></app-summary>
+        </mat-step>
+      </mat-horizontal-stepper>
+
+  </div>
+
+  <div class="col-sm-3" style="background-color: #DCDCDC">
+    
+    <mat-card style="margin-top: 30px;">
+      <h3><small>Travel : </small>Rs. {{ packagePrice }} <small>/ person</small> </h3> 
+      <hr>
+      <h3><small>Hotel : </small>Rs. {{ totalHotelPrice }} <small>/ {{ neededRooms }} rooms</small> </h3> 
+      <hr>
+      <h3><small>Cabs : </small>Rs. {{ cab }} <small>/ {{ neededCabs }} cabs</small> </h3> 
+    </mat-card>
+    <br>
+    <mat-card style="margin-top: 30px;">
+      <h3><small>Your Cost : </small>Rs. {{ USERPrice }}</h3>
+    </mat-card>
+
+  </div>
+
+  </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,135 @@
+[
+    {
+        "id": "KLSZSW#1",
+        "name": "Suzuki Swift",
+        "cost": 4000,
+        "location": "kerala",
+        "availability": true,
+        "seater": 4,
+        "ac": true,
+        "cabImg": "https://images.pexels.com/photos/2360562/pexels-photo-2360562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+
+    {
+        "id": "KLSZERT#1",
+        "name": "Suzuki Ertiga",
+        "cost": 5000,
+        "location": "pune",
+        "availability": true,
+        "seater": 6,
+        "ac": true
+    },
+
+    {
+        "id": "KLTOINV#1",
+        "name": "Inova",
+        "cost": 10000,
+        "location": "kerala",
+        "availability": true,
+        "seater": 7,
+        "ac": true
+    },
+
+    {
+        "id": "KLHDAMZ#1",
+        "name": "Honda Amaze",
+        "cost": 5000,
+        "location": "delhi",
+        "availability": true,
+        "seater": 4,
+        "ac": true
+    },
+
+    {
+        "id": "KLMIVN#1",
+        "name": "Mini Van",
+        "cost": 5000,
+        "location": "mumbai",
+        "availability": true,
+        "seater": 4,
+        "ac": true
+    },
+
+    {
+        "id": "UKIC#1",
+        "name": "Indica",
+        "cost": 6000,
+        "location": "mumbai",
+        "availability": true,
+        "seater": 4,
+        "ac": false
+    },
+
+    {
+        "id": "UKTOINV#1",
+        "name": "Inova",
+        "cost": 1000,
+        "location": "Uttarakhand",
+        "availability": true,
+        "seater": 7,
+        "ac": true
+    },
+
+    {
+        "id": "UKSZERT#1",
+        "name": "Ertiga",
+        "cost": 1500,
+        "location": "Uttarakhand",
+        "availability": true,
+        "seater": 7,
+        "ac": true
+    },
+
+    {
+        "id": "UKMIVN#1",
+        "name": "Mini Van",
+        "cost": 5000,
+        "location": "Uttarakhand",
+        "availability": true,
+        "seater": 4,
+        "ac": true
+    },
+
+    {
+        "id": "DLTOINV#1",
+        "name": "Inova",
+        "cost": 2800,
+        "location": "delhi",
+        "availability": true,
+        "seater": 7,
+        "ac": true
+    },
+
+    {
+        "id": "DLSZDZ#1",
+        "name": "Dezire",
+        "cost": 3000,
+        "location": "Uttarakhand",
+        "availability": true,
+        "seater": 4,
+        "ac": true
+    },
+
+    {
+        "id": "KATOINV#1",
+        "name": "Inova",
+        "cost": 3200,
+        "location": "mumbai",
+        "availability": true,
+        "seater": 7,
+        "ac": true
+    },
+
+    {
+        "id": "KASZDZ#1",
+        "name": "Dezire",
+        "cost": 5000,
+        "location": "delhi",
+        "availability": true,
+        "seater": 4,
+        "ac": true
+    }
+]
+
+
+

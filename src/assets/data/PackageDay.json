@@ -1,0 +1,160 @@
+ [
+	{
+		"id" : "KBP5",
+		"state" : "kerala",
+		"name" : "Kerala Bahar",
+		"duration" : 5,
+		"activity" : [
+
+			{
+				"city" : "Kochi",
+				"flow" :  ["Check in Hotel", "Sightseeing in Kochi", "Dinner in Hotel"],
+				"points" : ["Cherai Beach", "Hill Palace Museum", "Fort Kochi Beach"]
+			},
+			{
+				"city" : "Munnar",
+				"flow" : ["Breakfast in Kochi", "Check out", "Depart for Munnar", "Check in Hotel", "Night Sightseeing in Munnar", "Dinner in Hotel"],
+				"points" : ["Eravikulam National Park", "Mateputty Dam", "Anamudi", "Tea Museum"]
+			},
+			{
+				"city" : "Munnar",
+				"flow" : ["Breakfast in Munnar", "Sightseeing in Munnar", "Check out", "Depart for Thekkadi", "Check in Thekkadi", "Dinner in Hotel"],
+				"points" : ["Attukad Waterfalls", "Kolukkumalai Tea Estate", "The Blossom International Park"]
+			},
+			{
+				"city" : "Thekkady",
+				"flow" : ["Breakfast in Thekkadi", "Sightseeing in Thekkadi", "Check out", "Depart for Allepy", "Check in Allepy", "Sightseeing in Allepy"],
+				"points" : ["Thekkady Lake", "Periyar National Park", " Abraham’s Spice Garden", "Stay In A Houseboat", "Watch The Snake Boat Race"]
+			},
+			{
+				"city" : "Allepy",
+				"flow" : ["Breakfast in Allepy", "Depart for Kochi"],
+				"points" : ["House boating"]
+			}
+		]
+	},
+
+	{
+		"id" : "KPP7",
+		"state" : "kerala",
+		"name" : "Kerala - A Paradise",
+		"duration" : 7,
+		"activity" : [
+			{
+				"city" : "Kochi",
+				"flow" :  ["Check in Hotel", "Sightseeing in Kochi", "Dinner in Hotel"],
+				"points" : ["Cherai Beach", "Hill Palace Museum", "Fort Kochi Beach"]
+			},
+			{
+				"city" : "Kochi",
+				"flow" :  ["Breakfast in Hotel", "Sightseeing in Kochi", "Dinner in Hotel"],
+				"points" : ["Willingdon Island", "Mattancherry Palace", "Pardesi Synagogue", "Kathakali Performance"]
+			},
+			{
+				"city" : "Munnar",
+				"flow" : ["Breakfast in Kochi", "Check out", "Depart for Munnar", "Check in Hotel", "Night Sightseeing in Munnar", "Dinner in Hotel"],
+				"points" : ["Eravikulam National Park", "Mateputty Dam", "Anamudi", "Tea Museum"]
+			},
+			{
+				"city" : "Munnar",
+				"flow" : ["Breakfast in Munnar", "Sightseeing in Munnar", "Check out", "Depart for Thekkadi", "Check in Thekkadi", "Dinner in Hotel"],
+				"points" : ["Attukad Waterfalls", "Kolukkumalai Tea Estate", "The Blossom International Park"]
+			},
+			{
+				"city" : "Thekkady",
+				"flow" : ["Breakfast in Thekkadi", "Sightseeing in Thekkadi" ],
+				"points" : ["Thekkady Lake", "Periyar National Park", " Abraham’s Spice Garden", "The Surreal Chellarkovil"]
+			},
+			{
+				"city" : "Allepy",
+				"flow" : ["Check out", "Depart for Allepy", "Check in Allepy", "Sightseeing in Allepy"],
+				"points" : ["House boating", "Stay In A Houseboat", "Watch The Snake Boat Race"]
+			},
+			{
+				"city" : "Allepy",
+				"flow" : ["Breakfast in Allepy", "Depart for Kochi"],
+				"points" : ["House boating"]
+			}
+		]
+	},
+
+	{
+		"id" : "SUP5",
+		"state" : "uttarakhand",
+		"name" : "Splendours of Uttarakhand",
+		"duration" : 5,
+		"activity" : [
+
+			{
+				"city" : "Nainital",
+				"flow" :  ["Check in Hotel", "Sightseeing in Nainital", "Dinner in Hotel"],
+				"points" : ["Nainital Lake", "Tiffin Top", "Snow View"]
+			},
+			{
+				"city" : "Nainital",
+				"flow" : ["Breakfast in Nainital", "Sightseeing in Nainital", "Check out", "Depart for Corbett", "Check in Hotel", "Dinner in Hotel"],
+				"points" : ["Shri Maa Naina Devi Temple", "Dorothy's Seat - Tiffin Top", "Lover's Point"]
+			},
+			{
+				"city" : "Corbett",
+				"flow" : ["Breakfast in Corbett", "Sightseeing in Corbett", "Check out", "Depart for Mussoorie", "Check in Mussoorie", "Dinner in Hotel"],
+				"points" : ["Attukad Corbett", "Sitabani Wildlife Reserve", "Corbett Tiger Reserve"]
+			},
+			{
+				"city" : "Mussoorie",
+				"flow" : ["Breakfast in Mussoorie", "Sightseeing in Mussoorie", "Dinner in Hotel"],
+				"points" : ["Lal Tibba Scenic Point", "Company Garden", "Mossy Falls", "Camels Back Road"]
+			},
+			{
+				"city" : "Mussoorie",
+				"flow" : ["Breakfast in Mussoorie", "Depart for Delhi"],
+				"points" : ["Mussorie Lake", "Bhadraj Temple"]
+			}
+		]
+	},
+
+	{
+		"id" : "UGPP7",
+		"state" : "uttarakhand",
+		"name" : "Uttarakhand - God's Place",
+		"duration" : 7,
+		"activity" : [
+
+			{
+				"city" : "Haridwar",
+				"flow" : ["Check in Hotel", "Sightseeing in Haridwar", "Dinner in Hotel"],
+				"points" : ["Har Ki Pauri Ghat", "Shri Mata Mansa Devi Mandir"]
+			},
+			{
+				"city" : "Rishikesh",
+				"flow" : ["Breakfast in Haridwar", "Check out", "Depart for Rishikesh", "Sightseeing in Rishikesh", "Dinner in Hotel"],
+				"points" : ["Ram Jhula", "Parmarth Niketan Ashram", "Laxman Jhula", "Sivananda Ashram"]
+			},
+			{
+				"city" : "Nainital",
+				"flow" :  ["Breakfast in Rishikesh", "Check out", "Depart for Nainital", "Sightseeing in Nainital", "Dinner in Hotel"],
+				"points" : ["Nainital Lake", "Shri Maa Naina Devi Temple", "Neem Karoli Baba Ashram Kainchi Dham"]
+			},
+			{
+				"city" : "Nainital",
+				"flow" : ["Breakfast in Nainital", "Sightseeing in Nainital", "Check out", "Depart for Corbett", "Check in Hotel", "Dinner in Hotel"],
+				"points" : ["Shri Maa Naina Devi Temple", "Mall Road", "Dorothy's Seat - Tiffin Top"]
+			},
+			{
+				"city" : "Corbett",
+				"flow" : ["Breakfast in Corbett", "Sightseeing in Corbett", "Check out", "Depart for Mussoorie", "Check in Mussoorie", "Dinner in Hotel"],
+				"points" : ["Attukad Corbett", "Sitabani Wildlife Reserve", "Corbett Tiger Reserve"]
+			},
+			{
+				"city" : "Mussoorie",
+				"flow" : ["Breakfast in Mussoorie", "Sightseeing in Mussoorie", "Dinner in Hotel"],
+				"points" : ["Jwalaji Temple", "Lal Tibba Scenic Point", "Company Garden", "Mossy Falls", "Camels Back Road"]
+			},
+			{
+				"city" : "Mussoorie",
+				"flow" : ["Breakfast in Mussoorie", "Depart for Delhi"],
+				"points" : ["Mussorie Lake", "Bhadraj Temple"]
+			}
+		]
+	}
+]

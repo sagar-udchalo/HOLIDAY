@@ -1,0 +1,43 @@
+<div *ngIf="dayPlanData != undefined">
+	<h3>Your Package Plans</h3>
+	<div *ngFor="let pack of dayPlanData.activity; let i = index">
+		<mat-accordion class="example-headers-align" multi>
+
+		  <mat-expansion-panel>
+		    <mat-expansion-panel-header>
+		      <mat-panel-title>
+		        Day {{i+1}} : 
+		      </mat-panel-title> 
+		      <mat-panel-description>
+		        <b>{{ pack.city }}</b>
+		      </mat-panel-description>
+		    </mat-expansion-panel-header>
+
+		    <div class="container-fluid">
+			    <div class="row">
+			    	<div class="col-sm-6">
+			    		<h3><i>What you will do ?!</i></h3>
+			    		<ul *ngFor="let f of pack.flow">
+					    	<li>{{ f }}</li>
+					    </ul>
+			    	</div>
+
+			    	<div class="col-sm-6">
+			    		<h3><i>What places we will cover ?!</i></h3>
+			    		<ul *ngFor="let f of pack.points">
+					    	<li>{{ f }}</li>
+					    </ul>
+			    	</div>
+			    </div>
+		    </div>
+
+
+		  </mat-expansion-panel>
+
+		</mat-accordion>
+		<br>
+	</div>
+	<div>
+	  <button mat-flat-button color="primary" matStepperNext style="float: right;">Next</button>
+	</div>
+</div>

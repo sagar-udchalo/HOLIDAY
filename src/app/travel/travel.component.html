@@ -1,0 +1,159 @@
+<div>
+	<div class="container-fluid" style="background-color: #f5f5f5; padding: 10px">
+		<div class="row">
+			<div class="col-sm-6">
+				
+				<h4>Day 1</h4>
+				<b>{{ from | uppercase }}</b> to <b>{{ to | uppercase }}</b>
+				<hr>
+				<div>
+					<mat-card *ngIf="availFlightsStart!=undefined">
+						<span class="cost">Rs. {{availFlightsStart.cost}}</span>
+						<span>
+							<span class="material-icons" style="margin-right: 9px;font-size:15px;">local_airport</span>
+							{{ availFlightsStart.airline }} - {{ availFlightsStart.id }}</span>
+						<br>
+						<span><b>{{ availFlightsStart.start }}</b></span>
+							
+						<span class="material-icons" style="margin-left: 25px;margin-right: 25px;">
+							arrow_right_alt
+						</span>
+
+						<span><b>{{ availFlightsStart.end }}</b></span>
+						<div style="float: right;">
+							<small>Meal is {{ availFlightsStart.meal }}</small><br>
+							<small style="text-decoration: underline;">{{ availFlightsStart.refund }} refund</small>
+						</div>
+						<div><small>Baggage :{{ availFlightsStart.weight }} kgs</small></div>
+
+						<div>
+							<small style="font-weight: bold;">dated : {{ availFlightsStart.dateTime }} | </small>
+							<small><b>{{ availFlightsStart.duration }} hrs</b></small>
+						</div>
+						<br>
+						<button mat-stroked-button color="primary" 
+						style="padding: 0px;"
+						(click)="selectedStart(availFlightsStart.id, availFlightsStart.cost)">
+						Select</button>
+
+					</mat-card>
+					<br>
+
+					<mat-card *ngIf="availTrainsStart!=undefined">
+						<span class="cost">Rs. {{availTrainsStart.cost}}</span>
+						<span>
+							<span class="material-icons" style="margin-right: 9px;font-size:15px;">directions_railway</span>
+							{{ availTrainsStart.type }} - {{ availTrainsStart.id }}</span>
+						<br>
+						<span><b>{{ availTrainsStart.start }}</b></span>
+							
+						<span class="material-icons" style="margin-left: 25px;margin-right: 25px;">
+							arrow_right_alt
+						</span>
+
+						<span><b>{{ availTrainsStart.end }}</b></span>
+
+
+						<div style="float: right;">
+							<small>Meal{{ availTrainsStart.meal }}</small><br>
+							<small style="text-decoration: underline;">{{ availTrainsStart.refund }} refund</small>
+						</div>
+						<div style="height: 20px;"></div>
+
+						<div>
+							<small style="font-weight: bold;">dated : {{ availTrainsStart.dateTime }} | </small>
+							<small><b>{{ availTrainsStart.duration }} hrs</b></small>
+						</div>
+						<br>
+						<button mat-stroked-button color="primary"
+						(click)="selectedStart(availTrainsStart.id, availTrainsStart.cost)"
+						>Select</button>
+
+					</mat-card>
+
+					
+				</div>
+
+			</div>
+
+			<div class="col-sm-6">
+			
+				<h4 *ngIf="packages">Day {{ packages.duration }}</h4>
+				<b>{{ to | uppercase }}</b> to <b>{{ from | uppercase }}</b>
+				<hr>
+				<div>
+					<mat-card *ngIf="availFlightsEnd!=undefined">
+						<span class="cost">Rs. {{availFlightsEnd.cost}}</span>
+						<span>
+							<span class="material-icons" style="margin-right: 9px;font-size:15px;">local_airport</span>
+							{{ availFlightsEnd.airline }} - {{ availFlightsEnd.id }}</span>
+						<br>
+						<span><b>{{ availFlightsEnd.start }}</b></span>
+							
+						<span class="material-icons" style="margin-left: 25px;margin-right: 25px;">
+							arrow_right_alt
+						</span>
+
+						<span><b>{{ availFlightsEnd.end }}</b></span>
+						<div style="float: right;">
+							<small>Meal is {{ availFlightsEnd.meal }}</small><br>
+							<small style="text-decoration: underline;">{{ availFlightsEnd.refund }} refund</small>
+						</div>
+						<div><small>Baggage :{{ availFlightsEnd.weight }} kgs</small></div>
+
+						<div>
+							<small style="font-weight: bold;">dated : {{ availFlightsEnd.dateTime }} | </small>
+							<small><b>{{ availFlightsEnd.duration }} hrs</b></small>
+						</div>
+						<br>
+						<button mat-stroked-button color="primary"
+						(click)="selectedEnd(availFlightsEnd.id, availFlightsEnd.cost)"
+						>Select</button>
+
+					</mat-card>
+					<br>
+
+					<mat-card *ngIf="availTrainsEnd!=undefined">
+						<span class="cost">Rs. {{availTrainsEnd.cost}}</span>
+						<span>
+							<span class="material-icons" style="margin-right: 9px;font-size:15px;">directions_railway</span>
+							{{ availTrainsEnd.type }} - {{ availTrainsEnd.id }}</span>
+						<br>
+						<span><b>{{ availTrainsEnd.start }}</b></span>
+							
+						<span class="material-icons" style="margin-left: 25px;margin-right: 25px;">
+							arrow_right_alt
+						</span>
+
+						<span><b>{{ availTrainsEnd.end }}</b></span>
+
+
+						<div style="float: right;">
+							<small>Meal{{ availTrainsEnd.meal }}</small><br>
+							<small style="text-decoration: underline;">{{ availTrainsEnd.refund }} refund</small>
+						</div>
+						<div style="height: 20px;"></div>
+
+						<div>
+							<small style="font-weight: bold;">dated : {{ availTrainsEnd.dateTime }} | </small>
+							<small><b>{{ availTrainsEnd.duration }} hrs</b></small>
+						</div>
+						<br>
+						<button mat-stroked-button color="primary"
+						(click)="selectedEnd(availTrainsEnd.id, availTrainsEnd.cost)"
+						>Select</button>
+
+					</mat-card>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+              <button  mat-flat-button color="primary" matStepperPrevious>Back</button>
+              <button  mat-flat-button color="primary" matStepperNext (click)="saveTravelDetails()"
+               style="float: right;"
+              >Next</button>
+            </div>
+</div>

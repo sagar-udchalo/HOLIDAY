@@ -1,0 +1,73 @@
+[
+	{
+		"id" : "#6701",
+		"duration" : 18,
+		"cost" : 3200,
+		"from" : "delhi",
+		"to" : "kerala",
+		"meal" : true,
+		"refund" : "full",
+		"type" : "AC1",
+		"dateTime": "2020-09-12",
+		"start": "05:30",
+		"end": "23:30"
+
+	},
+
+	{
+		"id" : "#6702",
+		"duration" : 13,
+		"cost" : 2900,
+		"from" : "mumbai",
+		"to" : "delhi",
+		"meal" : true,
+		"refund" : "full",
+		"type" : "AC1",
+		"dateTime": "2020-09-10",
+		"start": "08:30",
+		"end": "21:30"
+	},
+
+	{
+		"id" : "#6703",
+		"duration" : 15,
+		"cost" : 3500,
+		"from" : "kerala",
+		"to" : "delhi",
+		"meal" : true,
+		"refund" : "partial",
+		"type" : "AC1",
+		"dateTime": "2020-09-18",
+		"start": "07:30",
+		"end": "22:30"
+	},
+
+	{
+		"id" : "#6707",
+		"duration" : 18,
+		"cost" : 2900,
+		"from" : "delhi",
+		"to" : "kerala",
+		"meal" : true,
+		"refund" : "full",
+		"type" : "AC2",
+		"dateTime": "2020-08-10",
+		"start": "19:00",
+		"end": "13:00"
+	},
+
+	{
+		"id" : "#6702",
+		"duration" : 13,
+		"cost" : 2400,
+		"from" : "delhi",
+		"to" : "mumbai",
+		"meal" : true,
+		"refund" : "full",
+		"type" : "AC12",
+		"dateTime": "2020-09-16",
+		"start": "11:30",
+		"end": "01:30"
+	}
+
+]

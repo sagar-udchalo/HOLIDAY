@@ -1,0 +1,53 @@
+<div>
+	<div class="container-fluid" style="background-color: #f5f5f5;padding: 30px">
+		
+		<form class="example-form">
+			<table class="example-full-width" cellspacing="0"><tr>
+	    <td><mat-form-field class="example-full-width">
+	      <mat-label>Name</mat-label>
+	      <input matInput placeholder="Ex. your Name" name="userFullName"  [(ngModel)]="userFullName">
+	    </mat-form-field></td>
+	    <td><mat-form-field class="example-full-width">
+	      <mat-label>Age</mat-label>
+	      <input matInput placeholder="Ex. 10" name="age" type="number" min="0" max="90"  [(ngModel)]="age">
+	    </mat-form-field></td>
+	    <td><mat-form-field class="example-full-width">
+	      <mat-label>contact</mat-label>
+	      <input matInput placeholder="Ex. 10 digit Contact" name="contact" type="number"  [(ngModel)]="contact">
+	    </mat-form-field></td>
+	    <td>
+	    	
+	    </td>
+	  </tr></table>
+	</form>
+	<button mat-flat-button color="primary" (click)="addUser()">
+		<span class="material-icons" style="font-size: 16px;">add</span>
+		Add travellers
+	</button>
+
+	<div style="padding: 50px" *ngIf="travellers">
+		<div *ngFor="let t of travellers, let i = index">
+		  <mat-card>
+		  	<h4><b>Traveller {{ i+1 }}</b> : </h4>
+		  	<button style="float: right;outline: none;border: none;color: black"  (click)="deleteUser(t.userFullName)">
+		  		<span class="material-icons">delete</span>
+		  	</button>
+		  	<span>Name : {{t.userFullName}}</span>
+		  	<br>
+		  	<span>age : {{ t.age }}</span>
+		  	<br>
+		  	<span>contact : {{t.contact}}</span>
+		  </mat-card>
+		  <br>
+		</div>
+	</div>
+
+	</div>
+
+	<div>
+	  <button  mat-flat-button color="primary" matStepperPrevious>Back</button>
+	  <button  mat-flat-button color="primary" matStepperNext (click)="saveTravellersToParent()"
+	   style="float: right;"
+	  >Save</button>
+	</div>
+</div>

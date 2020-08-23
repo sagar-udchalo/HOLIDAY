@@ -1,0 +1,259 @@
+[
+	{
+		"id" : "KBP5",
+		"rating" : 3,
+		"hotels" : [
+
+			{
+				"city" : "Kochi",
+				"hotel" : "K3#1"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K3#2"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K3#2"
+			},
+			{
+				"city" : "Thekkady",
+				"hotel" : "K3#4"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K3#5"
+			}
+		] 
+	},
+
+	{
+		"id" : "KBP5",
+		"rating" : 5,
+		"hotels" : [
+
+			{
+				"city" : "Kochi",
+				"hotel" : "K5#1"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K5#2"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K5#2"
+			},
+			{
+				"city" : "Thekkady",
+				"hotel" : "K5#4"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K5#5"
+			}
+		]
+	},
+
+	{
+		"id" : "KPP7",
+		"rating" : 3,
+		"hotels" : [
+
+			{
+				"city" : "Kochi",
+				"hotel" : "K3#1"
+			},
+			{
+				"city" : "Kochi",
+				"hotel" : "K3#1"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K3#2"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K3#2"
+			},
+			{
+				"city" : "Thekkady",
+				"hotel" : "K3#4"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K3#5"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K3#5"
+			}
+		]
+	},
+
+	{
+		"id" : "KPP7",
+		"rating" : 5,
+		"hotels" : [
+
+			{
+				"city" : "Kochi",
+				"hotel" : "K5#1"
+			},
+			{
+				"city" : "Kochi",
+				"hotel" : "K5#1"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K5#2"
+			},
+			{
+				"city" : "Munnar",
+				"hotel" : "K5#2"
+			},
+			{
+				"city" : "Thekkady",
+				"hotel" : "K5#4"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K5#5"
+			},
+			{
+				"city" : "Allepy",
+				"hotel" : "K5#5"
+			}
+		]  
+	},
+
+
+	{
+		"id" : "SUP5",
+		"rating" : 3,
+		"hotels" : [
+
+			{
+				"city" : "Nainital",
+				"hotel" : "U3#1"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U3#1"
+			},
+			{
+				"city" : "Corbett",
+				"hotel" : "U3#3"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U3#4"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U3#4"
+			}
+		]
+	},
+
+	{
+		"id" : "SUP5",
+		"rating" : 5,
+		"hotels" : [
+
+			{
+				"city" : "Nainital",
+				"hotel" : "U5#1"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U5#1"
+			},
+			{
+				"city" : "Corbett",
+				"hotel" : "U5#3"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U5#4"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U5#4"
+			}
+		]
+	},
+
+	{
+		"id" : "UGPP7",
+		"rating" : 3,
+		"hotels" : [
+
+			{
+				"city" : "Haridwar",
+				"hotel" : "U3#2"
+			},
+			{
+				"city" : "Rishikesh",
+				"hotel" : "U3#5"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U3#1"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U3#1"
+			},
+			{
+				"city" : "Corbett",
+				"hotel" : "U3#3"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U3#4"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U3#4"
+			}
+		]
+	},
+
+	{
+		"id" : "UGPP7",
+		"rating" : 5,
+		"hotels" : [
+
+			{
+				"city" : "Haridwar",
+				"hotel" : "U5#2"
+			},
+			{
+				"city" : "Rishikesh",
+				"hotel" : "U5#5"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U5#1"
+			},
+			{
+				"city" : "Nainital",
+				"hotel" : "U5#1"
+			},
+			{
+				"city" : "Corbett",
+				"hotel" : "U5#3"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U5#4"
+			},
+			{
+				"city" : "Mussoorie",
+				"hotel" : "U5#4"
+			}
+		]
+	}
+
+]

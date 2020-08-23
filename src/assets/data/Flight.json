@@ -1,0 +1,125 @@
+[
+	{
+		"id" : "AI-301",
+		"airline" : "Air India",
+		"duration" : 4,
+		"cost" : 7000,
+		"from" : "delhi",
+		"to" : "kerala",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : true,
+		"dateTime": "2020-09-12",
+		"start": "05:30",
+		"end": "09:30"
+	},
+
+
+	{
+		"id" : "AI-302",
+		"airline" : "Air India",
+		"duration" : 3.5,
+		"cost" : 6000,
+		"from" : "mumbai",
+		"to" : "delhi",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : true,
+		"dateTime": "2020-09-10",
+		"start": "07:30",
+		"end": "10:00"
+	},
+
+
+	{
+		"id" : "AI-303",
+		"airline" : "Air India",
+		"duration" : 3.5,
+		"cost" : 5000,
+		"from" : "kerala",
+		"to" : "delhi",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : true,
+		"dateTime": "2020-08-18",
+		"start": "12:30",
+		"end": "3:00"
+	},
+
+
+	{
+		"id" : "UK-401",
+		"airline" : "Vistara",
+		"duration" : 4,
+		"cost" : 5000,
+		"from" : "delhi",
+		"to" : "kerala",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : true,
+		"dateTime": "2020-08-10",
+		"start": "13:00",
+		"end": "17:00"
+	},
+
+	{
+		"id" : "UK-402",
+		"airline" : "Vistara",
+		"duration" : 3,
+		"cost" : 4500,
+		"from" : "delhi",
+		"to" : "mumbai",
+		"weight" : 20,
+		"refund" : "full",
+		"meal" : false,
+		"dateTime": "2020-09-16",
+		"start": "19:30",
+		"end": "22:30"
+	},
+
+	{
+		"id" : "UK-403",
+		"airline" : "Vistara",
+		"duration" : 3,
+		"cost" : 3000,
+		"from" : "delhi",
+		"to" : "banglore",
+		"weight" : 20,
+		"refund" : "full",
+		"meal" : false,
+		"dateTime": "2020-09-18",
+		"start": "10:30",
+		"end": "13:30"
+	},
+
+	{
+		"id" : "SJ-401",
+		"airline" : "Spicejet",
+		"duration" : 2,
+		"cost" : 5000,
+		"from" : "kerala",
+		"to" : "delhi",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : false,
+		"dateTime": "2020-09-18",
+		"start": "16:30",
+		"end": "18:30"
+	},
+
+	{
+		"id" : "SJ-401",
+		"airline" : "Spicejet",
+		"duration" : 2,
+		"cost" : 5000,
+		"from" : "delhi",
+		"to" : "mumbai",
+		"weight" : 20,
+		"refund" : "partial",
+		"meal" : false,
+		"dateTime": "2020-09-14",
+		"start": "16:30",
+		"end": "18:30"
+	}
+
+]

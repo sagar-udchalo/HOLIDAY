@@ -1,0 +1,41 @@
+ <div>
+	<h2>The Best Hotels for you...</h2>
+	<hr>
+	<div *ngFor="let h of finalHotels; let i = index">
+		<h4><b>Day {{ i+1 }} : </b></h4>
+		<mat-card>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+						width="90%" height="190">
+					</div>
+
+					<div class="col-sm-7">
+						<div style="padding: 11px;">
+							<span style="float: right;">
+								<mat-chip-list><mat-chip color="primary">
+									{{ h.rating }}
+									<span class="material-icons" style="font-size: 21px;color: yellow">star_rate</span>
+								</mat-chip>
+								</mat-chip-list>
+								</span>
+							<span><b>{{ h.name }}</b></span>
+							<br>
+							<p>{{ h.address }}</p>
+							<small>{{ h.city }} - {{ h.state }}</small>
+							<p>{{ h.description }}</p>
+							<button mat-stroked-button color="primary">Explore...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</mat-card>
+		<hr>
+	</div>
+
+	<div>
+      <button  mat-flat-button color="primary" matStepperPrevious>Back</button>
+      <button  mat-flat-button color="primary" matStepperNext style="float: right;">Next</button>
+    </div>
+</div>
